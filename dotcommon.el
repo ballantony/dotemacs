@@ -38,11 +38,12 @@
 
 ;; org Mode Keys
 (global-set-key "\C-cl" 'org-store-link)
-(global-set-key "\C-cc" 'org-capture)
 (global-set-key "\C-ca" 'org-agenda)
-(global-set-key "\C-ct" 'org-capture)
+(global-set-key "\C-cc" 'org-capture) ; org recommends
+(global-set-key "\C-ct" 'org-capture) ; more finger friendly
 
 
+;; Used to have lots of these, now just use TODO and DONE
 ;; (setq org-todo-keywords
 ;;       (quote ((sequence "TODO" "NEXT" "|" "DONE"))))
 
@@ -69,7 +70,6 @@
 
 ;; Alias, Setkeys, Mouseclicks
 (global-set-key "\M-]" 'bookmark-jump)
-(global-set-key (kbd "<next>") 'other-window)
 (global-set-key (kbd "<f7> <f7>") 'org-mark-ring-push)
 (global-set-key (kbd "C-<f7>") 'org-mark-ring-goto)
 
