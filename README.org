@@ -1,0 +1,4 @@
+# dotemacs
+.emacs files
+
+Some lightweight .emacs files I use when on a temporary computer...
