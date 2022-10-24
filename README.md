@@ -1,2 +1,0 @@
-# dotemacs
-.emacs files
